@@ -12,7 +12,7 @@ import productData from './data/product';
 const fastifyStatic = require('fastify-static');
 const debug = require('debug')('app');
 
-debug('Starting...');
+debug('Starting....');
 
 const HOST = process.env.HOST || 'localhost';
 const PORT = process.env.PORT || 3000;
